@@ -1,12 +1,8 @@
 
+nome=input("Introduza o seu nome! ")
 
-print("Liliana Oliveira")
+idade = input("introduz a sua idade!\n ---> \v")
 
-nome="Liliana Oliveira"
+dobroidade = int(idade)*2
 
-print(nome)
-
-firstname ="Liliana"
-lastname="Oliveira"
-
-print(firstname + " " + lastname)
+print("O dobro da \idade\ do/a", nome, "é",dobroidade)
