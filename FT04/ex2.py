@@ -1,7 +1,7 @@
 
 estadocivil = input("Introduza Estado Civil [S;C;D;V]\n-->")
 
-match estadocivil:
+match estadocivil.upper():
         case "S":
            print("Solteiro")
         case "C":
