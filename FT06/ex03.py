@@ -8,6 +8,12 @@ for x in idades:
 
 print("O numero de pessoas menores de idades é:", count)
 
+#[variaável cabeçalho_do_ciclo_ondese_encontra_avariavel condição_do_ciclo] comprehension lists
+
+menores_idade = [x for x in idades if x<18]
+print(len(menores_idade))
+
+
 #c.	Ordene a lista por ordem decrescente
 idades.sort(reverse=True)
 print(idades)

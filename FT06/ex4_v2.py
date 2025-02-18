@@ -2,7 +2,7 @@
 nums = [10, 2.5, 7, 11, 7.9, "Python", True, 6, 5.8, "Listas"]
 
 # a. Conta a quantidade de cada tipo de dado
-inteiros = sum(1 for x in nums if isinstance(x, int) and not isinstance(x, bool))
+inteiros = len([x for x in nums if isinstance(x, int) and not isinstance(x, bool)])
 floats = sum(1 for x in nums if isinstance(x, float))
 strings = sum(1 for x in nums if isinstance(x, str))
 booleanos = sum(1 for x in nums if isinstance(x, bool))
